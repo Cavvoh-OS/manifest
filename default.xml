@@ -1306,7 +1306,7 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <!-- <include name="snippets/evolution.xml" /> -->
+  <include name="snippets/cavvohos.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>
