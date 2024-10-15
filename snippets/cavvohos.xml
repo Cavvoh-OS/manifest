@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="cav"
-           fetch="https://github.com/Cavvoh"
+           fetch="https://github.com/Cavvoh-OS"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/A14" />
@@ -12,5 +12,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cav"/>
+  <project path="packages/apps/Deltalizer" name="packages_apps_Deltalizer" remote="cav" />
 
 </manifest>
