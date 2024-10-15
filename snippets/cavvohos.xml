@@ -8,10 +8,14 @@
            revision="refs/heads/A14" />
 
   <!-- Infrastructure -->
+  <project path="ecavvoh/manifest" name="manifest" remote="cav" />
   <project path="cavvoh/OTA" name="OTA" remote="cav" />
 
   <!-- Packages -->
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cav"/>
+  <project path="packages/apps/CavvohEgg" name="packages_apps_CavvohEgg" remote="cav" />
   <project path="packages/apps/Deltalizer" name="packages_apps_Deltalizer" remote="cav" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="cav" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cav"/>
+
 
 </manifest>
