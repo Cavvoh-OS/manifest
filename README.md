@@ -14,3 +14,20 @@ Then to sync up:
 ```
 repo sync
 ```
+
+# Build
+
+- Set up the build environment
+```bash
+. build/envsetup.sh
+```
+
+- Lunch a target
+```bash
+lunch lineage_codename-user
+```
+
+- To start compiling
+```bash
+m cavvoh
+```
