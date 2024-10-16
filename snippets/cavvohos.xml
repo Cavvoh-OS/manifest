@@ -8,7 +8,7 @@
            revision="refs/heads/A14" />
 
   <!-- Infrastructure -->
-  <project path="ecavvoh/manifest" name="manifest" remote="cav" />
+  <project path="cavvoh/manifest" name="manifest" remote="cav" />
   <project path="cavvoh/OTA" name="OTA" remote="cav" />
 
   <!-- Packages -->
