@@ -7,6 +7,9 @@
            sync-j="4"
            revision="refs/heads/A14" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="cav" />
+
   <!-- Infrastructure -->
   <project path="cavvoh/manifest" name="manifest" remote="cav" />
   <project path="cavvoh/OTA" name="OTA" remote="cav" />
@@ -16,6 +19,11 @@
   <project path="packages/apps/Deltalizer" name="packages_apps_Deltalizer" remote="cav" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="cav" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cav"/>
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="cav" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="cav" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="cav" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="cav" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="cav" />
 
 
 </manifest>
